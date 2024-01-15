@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(Backimage.jpg);
+    z-index: 1;
+}
+
+.container-fluid {
+    width: 400px;
+    margin: 30px auto;
+    padding: 10px;
+    padding-top: 5px;
+    opacity: 0.8;
+}
+
+.inputs {
+    padding: 1rem 0 2rem 0;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.inputs input[type="text"] {
+    height: 2rem;
+    width: 20rem;
+    background: #212121;
+    font-weight: bolder;
+    font-size: 1rem;
+    padding: 2px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid rgb(218, 106, 32);
+    color: chartreuse;
+    margin-right: 4px;
+}
+
+
+.inputs input[type="submit"] {
+    height: 3rem;
+    width: 6rem;
+    background: greenyellow;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 10px;
+    border-radius: 2px;
+    opacity: 0.9;
+}
+
+#add {
+    border-radius: 50%;
+}
+
+#add:hover {
+    font-size: 1.2em;
+
+    opacity: 0.7;
+}
+
+.display {
+    text-align: center;
+    width: 400px;
+    color: #16a864;
+}
+
+.box {
+    margin: 0 9rem;
+    height: 45vh;
+    margin: 10px auto;
+    border-radius: 2px;
+}
+
+.box h2 {
+    padding: 5px 0;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.box p {
+    margin: 20px 20px;
+    margin-right: 20px;
+    text-align: left;
+    font-size: 23px;
+}
+
+.box article {
+    display: inline-block;
+    margin: 0px;
+    margin-right: 5px;
+    text-align: left;
+    font-size: 23px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box h2 span {
+    font-size: 26px;
+    color: black;
+}
+
+.box p {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+#cityinput {
+    border-top-left-radius: 1cm;
+    border-bottom-right-radius: 1cm;
+    text-align: center;
+}
+
+::placeholder {
+    color: lawngreen;
+}
+
+#temp {
+    font-size: 600%;
+    font-weight: 1000;
+    font-family: fantasy;
+    text-shadow: 4px 4px #212121;
+}
+
+#description {
+    font-family: cursive;
+    font-weight: 1000;
+    font-size: 250%;
+}
+
+#date {
+    margin: 2px;
+    margin-bottom: 10%;
+}
+
+#cityoutput {
+    margin-top: 0px;
+    padding-top: 0%;
+}
